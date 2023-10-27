@@ -1,0 +1,27 @@
+###
+
+POST http://localhost:3333/users HTTP/1.1
+
+{
+    "name": "Thiago Cifani",
+    "email": "thiago@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/users HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE http://localhost:3333/users/3c5f9373-b9d3-4591-a535-d32b95927e79 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3333/users/23ad4855-50a1-45fb-9dbc-76f6eb580abd HTTP/1.1
+
+{
+    "name": "Thiago Cifani Escola",
+    "email": "thiago@gmail.com"
+}
